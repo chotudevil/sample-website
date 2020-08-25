@@ -1,0 +1,181 @@
+body{
+    padding: 0px;
+    width: 100%;
+    margin: 0px;
+    font-family:cursive;
+    background-image: url(../images/yellow_background.png);
+}
+
+.container{
+    width: 80%;
+    margin:auto;
+}
+#header{
+    padding: 5px 100px;
+    display:flex;
+    justify-content:space-between;
+    align-content: center;
+    border-bottom: 2px solid #ccc;
+}
+
+#header .logo-wrapper{
+    display: inline-flex;
+}
+#header .logo-wrapper .logo-name{
+    font-style: italic;
+    font-size: 40px;
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+#header .logo-desc{
+    font-size: 17px;
+    padding: 10px;    
+}
+
+
+#header .menu-list{
+    list-style: none;
+    display: flex;
+    margin-top: auto;
+}
+#header .menu-list li{
+    padding: 10px;
+   
+}
+
+.front-image{
+    position: relative;
+    width: 100%;
+    margin: auto;
+}
+.front-image img{
+        margin-top: 10px;
+    margin-left: 0px;
+    width:1230px;
+}
+#image .desc-align{
+    display: flex;
+    position: absolute;
+    background-color: rgba(2, 0, 0, 0.781);
+    width: 101%;
+    height: 30px;    
+    align-items: baseline;
+    bottom:4px;
+    color: white;
+    padding-top:10px;
+    justify-content: space-between;
+}
+#image .front-image .image-desc{
+    padding-left: 10px;
+
+}
+#image .front-image .btn-article button{
+    background-color: red;  
+    outline: none;
+    color:rgb(247, 247, 247);
+    border: none;
+    margin-right: 20px;
+    padding: 5px;
+    
+}
+
+#about-author{
+    margin-top: 20px;
+    display: flex;
+    box-sizing: border-box;
+}
+
+#about-author .div1{   
+    width: 70%;     
+}
+#about-author .div1 .logo-wraper{   
+    width: 70%;
+    display: flex;    
+}
+
+
+#about-author .div1 .logo-desc{
+    padding: 10px;
+    
+}
+#about-author .div2{
+    background-color: rgb(108 106 106);
+    width: 30%;
+    border-radius: 10px 10px 10px 10px;
+    padding: 20px;
+}
+
+#about-author .div2-image{
+    position: absolute;
+    right: 394px;
+    top: 100px;
+}
+#about-author .div1 .content-section{    
+    padding: 10px;
+    text-align: justify;
+}
+
+#about-author .div2 .about-author-title{
+    color: white;
+    
+}
+
+#about-author .div2 .zoro-image{
+  margin:50px;
+  margin-left: 80px;
+    
+}
+
+#about-author .div2 .zoro-intro{
+    color: white; 
+    
+}
+
+#about-author .div2 .zoro-logo img{
+   margin: 5px;    
+}
+
+
+#about-author .div2 .zoro-logo img:first-child{
+    margin-left: 20px;    
+ }
+
+#about-author{
+    border-bottom: 2px solid #ccc;
+padding: 5px;
+position: relative;
+}
+
+#border-image{
+    position: absolute;   
+    left: 50%;    
+}
+
+#footer{
+    padding:50px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer .footer-sec1{
+    padding-bottom:20px;
+}
+
+#footer .footer-sec2 img{
+    padding-top:20px;
+}
+
+
+#footer .footer-sec3 .myfriends{
+    display: flex;
+    padding-top:20px;
+}
+
+
+#footer .footer-sec3 .myfriends li{
+   list-style: none;
+   
+   padding-right: 10px;
+   color: rgb(189, 0, 0);
+}
